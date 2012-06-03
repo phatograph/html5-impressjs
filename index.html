@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5 by impress.js</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.">
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="impress" class="impress-not-supported">
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
+    </div>
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <h1>HTML5</h1>
+		<p class="footnote">based on <a href="http://slides.html5rocks.com/">html5rocks' slide</a><br />
+		Presentation by <a href="https://github.com/bartaz/impress.js">impress.js</a> framework</p>
+    </div>
+	
+	<div id="timeline" class="step slide" data-x="0" data-y="-1500">
+        <h2>Rough Timeline of Web Technologies</h2>
+		<ul>
+			<li><strong>1991</strong> HTML</li>
+			<li><strong>1994</strong> HTML2</li>
+			<li><strong>1996</strong> HTML3 + CSS1 + JavaScript</li>
+			<li><strong>1997</strong> HTML4</li>
+			<li><strong>1998</strong> CSS2</li>
+			<li><strong>1999</strong> CSS3</li>
+			<li><strong>2002</strong> Tableless Web Design</li>
+			<li><strong>2005</strong> AJAX</li>
+			<li><strong>2009</strong> HTML5</li>
+		</ul>
+    </div>
+	
+	<div id="html5eq" class="step slide" data-x="1000" data-y="-1500">
+        <p>HTML5 ~= HTML + CSS + JS</p>
+    </div>
+	
+	<div id="cover" class="step slide" data-x="2000" data-y="-1500">
+        <h2>Today, we will cover...</h2>
+		<ul>
+			<li class="gm">Graphics / Multimedia</li>
+			<li class="sm">Semantics & Markup</li>
+			<li class="os">Offline / Storage</li>
+			<li class="rc">Realtime / Communication</li>
+			<li class="fh">File / Hardware Access</li>
+		</ul>
+    </div>
+	
+	<div id="" class="step" data-x="500" data-y="-500" data-scale="5">
+        <p style="text-align: center;">So let's begin</p>
+    </div>
+	
+	<div id="" class="step" data-x="2000" data-y="500" data-scale="1" data-rotate="90">
+        <h2 class="categories">Graphics / Multimedia</h2>
+		<ul class="categories gm">
+			<li><a href="http://jsfiddle.net/phatograph/kcqtF/2/">Audio</a></li>
+			<li><a href="http://jsfiddle.net/phatograph/vgTQW/1/">Video</a></li>
+			<li><a href="http://jsfiddle.net/phatograph/cKLP5/1/">Canvas 2D</a></li>
+			<li><a href="http://jsfiddle.net/phatograph/RkpJQ/1/">Inline SVG</a></li>
+		</ul>
+    </div>
+	
+	<div id="" class="step" data-x="1000" data-y="500" data-scale="1" data-rotate="90">
+        <h2 class="categories">Semantics & Markup</h2>
+		<ul class="categories sm">
+			<li><a href="#sm01">Better semantic tags</a></li>
+			<li><a href="#sm02">Markup for Appilcations</a></li>
+			<li><a href="#sm03">Microdata</a></li>
+			<li><a href="#sm04">WAI-ARIA Attributes</a></li>
+			<li><a href="#sm05">New form types</a></li>
+		</ul>
+    </div>
+	
+	<div id="sm01" class="step" data-x="1000" data-y="1500" data-scale="1" data-rotate="90">
+        <h2 class="categories">Better semantic tags</h2>
+		<!--<iframe style="height: 500px; width: 100%; background-color: #FFF" src="http://jsbin.com/ehuzem/edit#html"></iframe>-->
+		<p style="text-align: center;">
+			<img src="img/2012-01-06 5-31-35 PM.png" />
+		</p>
+		<p style="font-size: 20px;">
+			Detailed <a href="http://jsbin.com/ehuzem/6/edit#html">here</a>
+		</p>
+    </div>
+	
+	<div id="sm02" class="step" data-x="1000" data-y="2500" data-scale="1" data-rotate="90">
+        <h2 class="categories">Markup for Applications</h2>
+		<ul class="categories sm">
+			<li><a href="http://jsbin.com/oyenus/edit#html,live">List / DataList</a> (firefox)</li>
+			<li><a href="http://jsbin.com/ukocux/edit#html,live">Details / Summary</a></li>
+			<li><a href="http://jsbin.com/ukocux/2/edit">Meter / Progress</a></li>
+			<li><a href="http://jsbin.com/icicim/2/edit">Link Relations</a></li>
+		</ul>
+    </div>
+	
+	<div id="sm03" class="step" data-x="1000" data-y="3500" data-scale="1" data-rotate="90">
+        <h2 class="categories">Microdata</h2>
+		<p style="font-size: 20px">
+			Microdata is a subset of making a document have meaning to machines,
+			just as it has meaning to a reader of the document. With meaning, I mean providing the meta
+			data in a way that can be used by a machine reading the document and to allow that data to be processed
+		</p>
+		<p style="font-size: 20px; text-align: right; margin-top: 20px;">
+			- <strong>John Cox</strong> from
+			<a href="http://net.tutsplus.com/tutorials/html-css-techniques/html5-microdata-welcome-to-the-machine/">Nettuts</a>
+			and Demo <a href="http://jsbin.com/uquboc/3/edit">here</a>
+		</p>
+    </div>
+	
+	<div id="sm04" class="step" data-x="1000" data-y="4500" data-scale="1" data-rotate="90">
+        <h2 class="categories">WAI-ARIA Attributes</h2>
+		<p style="font-size: 20px;">
+			WAI-ARIA is a specification that provides a means of describing roles, states,
+			and properties for custom widgets so that they are recognisable and usable
+			by assistive technology users.<br /><br />
+			WAI-ARIA also provides a mechanism to ensure
+			that users of assistive technologies are aware of updates in the application.
+		</p>
+		<p style="font-size: 20px; text-align: right; margin-top: 20px;">
+			- An <a href="http://dev.opera.com/articles/view/introduction-to-wai-aria/">Article</a>
+			from Dev.Opera and Demo <a href="http://jsbin.com/uquboc/3/edit">here</a>
+		</p>
+    </div>
+	
+	<div id="" class="step" data-x="2000" data-y="5500" data-scale="2" data-rotate="45">
+        <h2 class="categories">What am I ?</h2>
+		<p style="text-align: center">
+			<img src="img/thumb.gif" /><br />
+			<img src="img/2012-01-09 2-15-28 PM.png" />
+		</p>
+    </div>
+	
+	<div id="" class="step" data-x="3500" data-y="7000" data-scale="2" data-rotate="45">
+        <h2 class="categories">Keyboard Navigation</h2>
+		<p class="mContent">
+			Live demo <a href="http://jsbin.com/ejejil/edit#html,live">here</a>
+		</p>
+    </div>
+	
+	<div id="sm05" class="step" data-x="1000" data-y="5500" data-scale="1" data-rotate="90">
+        <h2 class="categories">New form types</h2>
+		<p style="text-align: center">
+			<img src="img/2012-01-11 10-18-36 AM.png" />
+		</p>
+		<p class="mContent">
+			Live demo <a href="http://jsbin.com/ugexul/edit#html,live">here</a>, also try this in your iPhone or Andriod!
+		</p>
+    </div>
+	
+	<div id="" class="step" data-x="0" data-y="500" data-scale="1" data-rotate="90">
+        <h2 class="categories">Offline / Storage</h2>
+		<ul class="categories os">
+			<li><a href="http://jsbin.com/iwodot/4/edit">Local Storage</a> (Chrome + Developer Tools)</li>
+			<li><a href="http://jsbin.com/exudog/edit#html,live">Session Storage</a></li>
+			<li><a href="http://jsbin.com/esiluc/edit#javascript,html,live">Web SQL Database</a></li>
+			<li><a href="http://jsbin.com/uviyuz/edit#javascript,html,live">IndexedDB</a></li>
+			<li><a href="http://slides.html5rocks.com/#app-cache">Application Cache</a></li>
+		</ul>
+    </div>
+	
+	<div id="" class="step" data-x="-1000" data-y="500" data-scale="1" data-rotate="90">
+        <h2 class="categories">Realtime / Communication</h2>
+		<ul class="categories rc">
+			<li><a href="http://slides.html5rocks.com/#web-workers">Web Workers</a></li>
+			<li><a href="http://slides.html5rocks.com/#web-sockets">WebSocket</a> (demo Network compare to <a href="http://chat.nodejs.org/">NodeChat</a>)</li>
+			<li><a href="http://jsbin.com/ogomal/2/edit">Notifications</a></li>
+		</ul>
+    </div>
+	
+	<div id="" class="step" data-x="-2000" data-y="500" data-scale="1" data-rotate="90">
+        <h2 class="categories">File / Hardware Access</h2>
+		<ul class="categories fh">
+			<li><a href="http://jsbin.com/oluxab/2/edit">Native Drag & Drop</a></li>
+			<li><a href="http://jsbin.com/oxofaf/edit#html,live">Desktop Drag-In</a></li>
+			<li><a href="http://jsbin.com/esoxat/edit#html,live">Desktop Drag-Out</a></li>
+			<li><a href="http://jsbin.com/osisap/edit#html,live">FileSystem APIs</a></li>
+			<li><a href="http://slides.html5rocks.com/#geolocation">Geolocation</a> (not working in TR network)</li>
+			<li><a href="http://www.html5rocks.com/en/tutorials/device/orientation/deviceorientationsample.html">Device Orientation</a> (try view on your iPhone or Andriod!<br />
+			http://www.html5rocks.com/en/tutorials/<br />device/orientation/deviceorientationsample.html)</li>
+			<li><a href="http://slides.html5rocks.com/#speech-input">Speech Input</a></li>
+		</ul>
+    </div>
+	
+    <div id="overview" class="step" data-x="500" data-y="2500" data-scale="10" data-rotate="90">
+    </div>
+	
+    <div class="step" data-x="-500" data-y="5000" data-scale="8" data-rotate="90">
+		<p style="font-size: 200px">Q &A ?</p>
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+<script src="js/impress.js"></script>
+
+</body>
+</html>
